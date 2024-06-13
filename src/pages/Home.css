@@ -1,10 +1,10 @@
 
-* {
+.homePage * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   /* color: white; */
 }
-.presentation {
+.homePage .presentation {
     background-image: url('../../public/images/background.jpg');
     background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la page */
     background-repeat: no-repeat; /* Empêche l'image de se répéter */
@@ -14,11 +14,11 @@
     height: 100vh; /* Assure que le body couvre toute la hauteur de la fenêtre */
 }
 
-header{
+.homePage header{
     font-size: 25px;
     padding: 0;
 }
-nav {
+.homePage nav {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -26,25 +26,25 @@ nav {
     /* align-items: flex-start; */
     background-color: white;
 }
-span.connexion{
+.homePage span.connexion{
     /* position: relative;  */
     margin: 10px;
 }
-span.connexion ,i.connexion{
+.homePage span.connexion ,.homePage i.connexion{
     position: relative;
     left: 90px;
     margin: 10px;
 }
-nav ul{
+.homePage nav ul{
     display: flex;
     list-style: none;
     margin: auto;
 }
-nav ul li{
+.homePage nav ul li{
     margin: 30px;
 }
 
-#logo{
+.homePage #logo{
     display:inline-block ;
     width: 70px;
     border-radius: 50px;
@@ -53,15 +53,15 @@ nav ul li{
     /* margin: 15px 0px 15px 15px; */
 }
 
-nav a{
+.homePage nav a{
     text-decoration: none;
     color: black;
 }
 
-.line{
+.homePage .line{
     border: solid black;
 }
-.presentation h1{
+.homePage .presentation h1{
     margin: auto;
     padding-top: 100px;
     margin-bottom: 70px;
@@ -72,7 +72,7 @@ nav a{
     width: 80%;
 }
 
-.form-container  p{
+.homePage .form-container  p{
     margin-top: 20px;
     margin-left: 10px;
     font-size: 20pt;
@@ -87,7 +87,7 @@ nav a{
     /* text-align: justify; */
 }
 
-.form-container input{
+.homePage .form-container input{
     color: gray;
     background-color: white;
     border-radius: 5px;
@@ -95,11 +95,11 @@ nav a{
     width: 150px;
 }
 
-.form-container  input[type="text"]{
+.homePage .form-container  input[type="text"]{
     padding-left: 30px;
 }
 
-form{
+.homePage form{
     position: relative;
     /* background-color: rgb(0, 0,0,0.5); */
     display: flex;
@@ -108,7 +108,7 @@ form{
     margin: auto;
     height: 200px;
 }
-.form-container{
+.homePage .form-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -116,34 +116,34 @@ form{
     width: 50%;
     margin: auto;
 }
-form  .fa-hotel{
+.homePage form  .fa-hotel{
     position: absolute;
     left: 8px;
     top: 42px;
     color: gray;
 }
-form .fa-plane{
+.homePage form .fa-plane{
     position: absolute;
     top: 143px;
     left: 8px;
     color: gray;
 }
 
-.separator{
+.homePage .separator{
     margin: 0px;
     border: none;
     height: 20px;
     background-color: rgb(0, 0, 0);
 }
 
-.hotel h1, .hotel p{
+.homePage .hotel h1, .homePage .hotel p{
     text-align: center;
     margin-top: 20px;
 }
-.hotel h1{
+.homePage .hotel h1{
     font-size: 100px;
 }
-.hotel-container-div{
+.homePage .hotel-container-div{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -151,49 +151,49 @@ form .fa-plane{
     margin-top: 100px;
     margin-bottom: 40px;
 }
-.hotel-container-2, .hotel-container-3{
+.homePage .hotel-container-2, .homePage .hotel-container-3{
     display: flex;
     flex-direction: column;
     gap :20px;
 }
-.hotel-container-1 img{
+.homePage .hotel-container-1 img{
     width: 550px;
     height: 500px;
     border-radius: 5%;
 }
-.hotel-container-2 img,.hotel-container-3 img{
+.homePage .hotel-container-2 img,.homePage .hotel-container-3 img{
     width: 250px; 
     height: 240px;
     border-radius: 10%;
 }
 
-.flight-card{
+.homePage .flight-card{
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
 }
-.vol h1, .vol p{
+.homePage .vol h1, .homePage .vol p{
     text-align: center;
 }
-.vol h1{
+.homePage .vol h1{
     margin-top: 20px;
     font-size: 100px;
 }
-.vol p, .hotel p{
+.homePage .vol p, .homePage .hotel p{
     font-size: 30px;
 }
 
-.card p{
+.homePage .card p{
     font-size: 20px;
 }
 
-.card{
+.homePage .card{
     border-radius: 10px;
     background-color: #1A1F23;
     color: white;
 }
-.card-img-top{
+.homePage .card-img-top{
     margin: auto;
     margin-top: 0.4rem;
     width: 17rem;
@@ -201,20 +201,20 @@ form .fa-plane{
     border-radius: 10px;
 }
 
-.hotel form{
+.homePage .hotel form{
     width: 200px;
 }
-.vol form{
+.homePage .vol form{
  width: 280px;
 }
 
-.hotel form input,.vol form input {
+.homePage .hotel form input,.homePage .vol form input {
     color: white;
     background-color: #1A1F23;
     border-radius: 20px;
 }
 
-a.btn.btn-primary{
+.homePage a.btn.btn-primary{
     display: block;
     margin: auto;
     /* text-align: center; */
