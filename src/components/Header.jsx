@@ -13,7 +13,7 @@ function Header(props){
                     <a href="./vol.html">Vols</a>
                 </li>
                 <li>
-                    <a href="./hotel.html">Hotels</a>
+                    <a href="/Hotel">Hotels</a>
                 </li>
                 <li>
                     <a href="./contact.html">Contactez-nous</a>
